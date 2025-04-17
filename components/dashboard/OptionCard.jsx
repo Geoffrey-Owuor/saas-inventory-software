@@ -15,19 +15,16 @@ export default function OptionCard({ optionData }) {
       <div className="">
         <Icon strokeWidth=".5px" className="h-36 w-36" />
       </div>
-      <p className="line-clamp-1">
-        {/* Create multiple variants of the same item using item groups */}
-        {description}
-      </p>
+      <p className="line-clamp-1">{description}</p>
       {enabled ? (
         <Link
           href={link}
-          className="space-x-1 rounded-sm bg-blue-500 px-2 py-1 text-white"
+          className="space-x-1 rounded-sm bg-blue-500 px-2 py-1 text-white hover:bg-blue-600"
         >
           {linkTitle}
         </Link>
       ) : (
-        <button className="space-x-1 rounded-sm bg-blue-500 px-2 py-1 text-white">
+        <button className="space-x-1 rounded-sm bg-blue-500 px-2 py-1 text-white hover:bg-blue-600">
           Enable
         </button>
       )}

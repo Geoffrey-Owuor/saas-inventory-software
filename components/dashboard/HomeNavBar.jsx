@@ -24,7 +24,7 @@ export default function HomeNavBar() {
     },
   ];
   return (
-    <div className="header_background mt-12 h-30 border-b border-slate-300 bg-white pr-2">
+    <div className="header_background h-30 border-b border-slate-300 bg-white pr-2">
       <div className="flex space-x-3">
         <div className="mt-2 ml-2 flex h-14 w-14 items-center justify-center rounded-lg bg-slate-200">
           <Building2 />

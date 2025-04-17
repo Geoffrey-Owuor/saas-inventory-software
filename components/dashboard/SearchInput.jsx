@@ -4,7 +4,9 @@ export default function SearchInput() {
   return (
     <div>
       <form>
-        <label className="sr-only">Search</label>
+        <label htmlFor="simple-search" className="sr-only">
+          Search
+        </label>
         <div className="relative w-full">
           <div className="pointer-events-none absolute inset-y-0 start-0 flex items-center ps-3">
             <SearchIcon className="h-4 w-4 text-gray-500 dark:text-gray-400" />

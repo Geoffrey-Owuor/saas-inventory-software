@@ -15,7 +15,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className="fixed right-0 left-50 flex h-12 items-center justify-between border-b border-slate-300 bg-slate-100 px-2">
+    <div className="fixed right-0 left-52 flex h-12 items-center justify-between border-b border-slate-300 bg-slate-100 px-2">
       <div className="flex">
         {/* Search */}
         <SearchInput />

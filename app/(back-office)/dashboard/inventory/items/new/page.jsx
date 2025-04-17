@@ -1,6 +1,6 @@
 export default function NewItem() {
   return (
-    <div className="mt-12">
+    <div>
       {/* Header */}
       {/* Form */}
       {/* Footer */}
